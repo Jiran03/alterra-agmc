@@ -570,7 +570,7 @@
 							}
 						],
 						"url": {
-							"raw": "https://testnet.binance.vision/api/v1/klines?symbol=BTCUSDT&interval=1d&startTime=1661961600&endTime=1662480000",
+							"raw": "https://testnet.binance.vision/api/v1/klines?symbol=BTCUSDT&interval=1d&startTime=1661997540000&endTime=1662595140000",
 							"protocol": "https",
 							"host": [
 								"testnet",
@@ -593,11 +593,11 @@
 								},
 								{
 									"key": "startTime",
-									"value": "1661961600"
+									"value": "1661997540000"
 								},
 								{
 									"key": "endTime",
-									"value": "1662480000"
+									"value": "1662595140000"
 								}
 							]
 						}
@@ -615,7 +615,7 @@
 									}
 								],
 								"url": {
-									"raw": "https://testnet.binance.vision/api/v1/klines?symbol=BTCUSDT&interval=1d&startTime=1661961600&endTime=1662480000",
+									"raw": "https://testnet.binance.vision/api/v1/klines?symbol=BTCUSDT&interval=1d&startTime=1661997540000&endTime=1662595140000",
 									"protocol": "https",
 									"host": [
 										"testnet",
@@ -638,11 +638,11 @@
 										},
 										{
 											"key": "startTime",
-											"value": "1661961600"
+											"value": "1661997540000"
 										},
 										{
 											"key": "endTime",
-											"value": "1662480000"
+											"value": "1662595140000"
 										}
 									]
 								}
@@ -657,7 +657,7 @@
 								},
 								{
 									"key": "Content-Length",
-									"value": "2"
+									"value": "182"
 								},
 								{
 									"key": "Connection",
@@ -665,7 +665,7 @@
 								},
 								{
 									"key": "Date",
-									"value": "Mon, 12 Sep 2022 15:42:22 GMT"
+									"value": "Tue, 13 Sep 2022 00:16:03 GMT"
 								},
 								{
 									"key": "Server",
@@ -673,7 +673,7 @@
 								},
 								{
 									"key": "x-mbx-uuid",
-									"value": "4d8ee4e2-e497-412b-839e-b6d5e6575b63"
+									"value": "0c800f25-49c7-4f5a-86c8-ac374143cd90"
 								},
 								{
 									"key": "x-mbx-used-weight",
@@ -737,7 +737,7 @@
 								},
 								{
 									"key": "Via",
-									"value": "1.1 108f357d49cbee9f7df541c880effcb4.cloudfront.net (CloudFront)"
+									"value": "1.1 8fcd2310b329d796dc46251ff180dbc6.cloudfront.net (CloudFront)"
 								},
 								{
 									"key": "X-Amz-Cf-Pop",
@@ -745,11 +745,11 @@
 								},
 								{
 									"key": "X-Amz-Cf-Id",
-									"value": "O6_PXENAvl-ewPFrAdwd7vt-ogbjIpqEIGcaBoyVG6ABzLJCSRkSmQ=="
+									"value": "OksGwS-I2fu9Rc6KER-qwuDqr4YRsOz8qS8LWtSx3WbRwEB2QTk_BA=="
 								}
 							],
 							"cookie": [],
-							"body": "[]"
+							"body": "[\n    [\n        1662508800000,\n        \"19107.80000000\",\n        \"50000.00000000\",\n        \"15668.40000000\",\n        \"19284.86000000\",\n        \"5892.50051000\",\n        1662595199999,\n        \"111900543.96863158\",\n        99487,\n        \"3814.98588700\",\n        \"72458500.50944591\",\n        \"0\"\n    ]\n]"
 						}
 					]
 				},
