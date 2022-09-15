@@ -1,0 +1,1 @@
+hari ke dua tentang cara menggunakan MVC pattern
