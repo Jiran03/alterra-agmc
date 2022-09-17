@@ -1,18 +1,15 @@
 package main
 
 import (
-	"log"
-
 	"github.com/Jiran03/agmc/task/day3/config"
 	"github.com/Jiran03/agmc/task/day3/routes"
-	"github.com/joho/godotenv"
 )
 
 func init() {
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatal("Error loading .env file")
-	}
+	// err := godotenv.Load()
+	// if err != nil {
+	// 	log.Fatal("Error loading .env file")
+	// }
 
 	config.InitDB()
 	config.InitMigration()

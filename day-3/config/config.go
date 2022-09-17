@@ -2,8 +2,6 @@ package config
 
 import (
 	"fmt"
-	"os"
-	"strconv"
 
 	"github.com/Jiran03/agmc/task/day3/models"
 	"gorm.io/driver/mysql"
@@ -21,13 +19,12 @@ type Config struct {
 }
 
 func InitDB() {
-	dbPort, _ := strconv.Atoi(os.Getenv("DB_PORT"))
 	config := Config{
-		DB_USERNAME: os.Getenv("DB_USER"),
-		DB_PASSWORD: os.Getenv("DB_PASS"),
-		DB_PORT:     dbPort,
-		DB_HOST:     os.Getenv("DB_HOST"),
-		DB_NAME:     os.Getenv("DB_NAME"),
+		DB_USERNAME: "root",
+		DB_PASSWORD: "mysecretpw",
+		DB_PORT:     3300,
+		DB_HOST:     "localhost",
+		DB_NAME:     "task_day3",
 	}
 
 	connectionString := fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?charset=utf8&parseTime=True&loc=Local",
