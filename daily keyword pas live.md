@@ -11,3 +11,6 @@ Day 3
 
 Day 4
 	makefile, flag;
+
+Day 7
+	github secret;
