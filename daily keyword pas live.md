@@ -14,3 +14,11 @@ Day 4
 
 Day 7
 	github secret;
+
+Day 8 
+	Bigbang/replace deployment;
+	Rollout deployment;
+	BlueGreen deployment;
+	Canary deployment;
+
+	tahap deployment => buat server, konek ssh, install docker dan docker compose di server (https://docs.docker.com/engine/install/ubuntu/), sudo docker pull mysql, pull file project dari github,
