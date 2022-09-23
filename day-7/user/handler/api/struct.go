@@ -31,11 +31,9 @@ func toDomain(req RequestJSON) domain.User {
 }
 
 type ResponseJSON struct {
-	ID    int    `json:"id"`
-	Name  string `json:"name" form:"name"`
-	Email string `json:"email" form:"email"`
-	// Gender      string    `json:"gender" form:"gender"`
-	Status    string    `json:"status" form:"status"`
+	ID        int       `json:"id"`
+	Name      string    `json:"name" form:"name"`
+	Email     string    `json:"email" form:"email"`
 	CreatedAt time.Time `json:"created_at" form:"created_at"`
 	UpdatedAt time.Time `json:"updated_at" form:"updated_at"`
 }
@@ -46,10 +44,9 @@ func fromDomain(domain domain.User) ResponseJSON {
 	tmUpdatedAt := helperTime.NanoToTime(domain.UpdatedAt)
 
 	return ResponseJSON{
-		ID:    domain.ID,
-		Name:  domain.Name,
-		Email: domain.Email,
-		// Gender:    domain.Gender,
+		ID:        domain.ID,
+		Name:      domain.Name,
+		Email:     domain.Email,
 		CreatedAt: tmCreatedAt,
 		UpdatedAt: tmUpdatedAt,
 	}

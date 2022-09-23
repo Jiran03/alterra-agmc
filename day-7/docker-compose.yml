@@ -10,15 +10,15 @@ services:
     depends_on:
       db:
         condition: service_started
-    environment:
-      DB: postgre
-      DB_NAME: agmcdb
-      DB_HOST: db
-      DB_USER: pg
-      DB_PASS: mysecretpw
-      DB_PORT: 5432
+    # environment:
+    #   DB: postgre
+    #   DB_NAME: agmcdb
+    #   DB_HOST: db
+    #   DB_USER: pg
+    #   DB_PASS: mysecretpw
+    #   DB_PORT: 5432
     #env_file:
-    #  - ./config.env
+    #  - ./.env
     networks:
       - agmcnet
     restart: always
